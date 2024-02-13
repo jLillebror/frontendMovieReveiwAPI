@@ -5,7 +5,7 @@ Denna webbapplikation möjliggör interaktion med ett REST-API för att hantera 
 ## Hur man startar applikationen
 
 1. Klona detta projekt till din lokala maskin.
-2. Öppna index.html-filen i en webbläsare.
+2. Öppna `index.html`-filen i en webbläsare.
 
 ## Användning
 
@@ -23,39 +23,39 @@ Denna webbapplikation möjliggör interaktion med ett REST-API för att hantera 
 
 ### Hantera filmer
 
-- Lägg till en film:
+- **Lägg till en film:**
   1. Logga in på ditt konto.
   2. Klicka på "Lägg till film" i navigeringsfältet.
   3. Fyll i formuläret med information om den nya filmen.
   4. Klicka på "Skapa film" för att lägga till filmen i databasen.
 
-- Uppdatera en film:
+- **Uppdatera en film:**
   1. Logga in på ditt konto.
   2. Klicka på "Redigera" bredvid den film du vill uppdatera.
   3. Uppdatera informationen i formuläret.
   4. Klicka på "Spara" för att uppdatera filmens information.
 
-- Ta bort en film:
+- **Ta bort en film:**
   1. Logga in på ditt konto.
   2. Klicka på "Ta bort" bredvid den film du vill ta bort.
   3. Bekräfta borttagningen i den dialogruta som visas.
 
 ### Hantera recensioner
 
-- Lägg till en recension:
+- **Lägg till en recension:**
   1. Logga in på ditt konto.
   2. Navigera till sidan för den film du vill recensera.
   3. Fyll i formuläret med din recension och betyg.
   4. Klicka på "Skicka" för att lägga till recensionen.
 
-- Uppdatera en recension:
+- **Uppdatera en recension:**
   1. Logga in på ditt konto.
   2. Navigera till sidan för den film där recensionen finns.
   3. Klicka på "Redigera" bredvid den recension du vill uppdatera.
   4. Uppdatera recensionen i formuläret.
   5. Klicka på "Spara" för att uppdatera recensionen.
 
-- Ta bort en recension:
+- **Ta bort en recension:**
   1. Logga in på ditt konto.
   2. Navigera till sidan för den film där recensionen finns.
   3. Klicka på "Ta bort" bredvid den recension du vill ta bort.
