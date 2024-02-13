@@ -35,7 +35,7 @@ Denna webbapplikation möjliggör interaktion med ett REST-API för att hantera 
   3. Uppdatera informationen i formuläret.
   4. Klicka på "Spara" för att uppdatera filmens information.
 
-- **Ta bort en film:**
+**Ta bort en film:**
   1. Logga in på ditt konto.
   2. Klicka på "Ta bort" bredvid den film du vill ta bort.
   3. Bekräfta borttagningen i den dialogruta som visas.
