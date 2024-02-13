@@ -1,7 +1,25 @@
 # Webbapplikation för att interagera med ett REST-API
 
 Denna webbapplikation möjliggör interaktion med ett REST-API för att hantera filmer och recensioner.
+## Krav
+## Hur man kör backend-applikationen
 
+Backend API finns här [GitHub](https://github.com/jLillebror/MovieReview_API)
+
+1. Klona backend-projektet till din lokala maskin.
+2. Öppna appsettings.json-filen i din applikation och uppdatera ConnectionStrings med den nödvändiga informationen:
+
+    ```json
+    "ConnectionStrings": {
+        "MovieReviewAPIContext": "Server=Server Name;Database=Database Name;Trusted_Connection=True;User ID=User Name;Password=Password;"
+    }
+    ```
+
+    Notera att "Server Name", "Database Name", "User Name" och "Password" måste ersättas med den korrekta informationen för din lokala miljö.
+
+3. Skapa databasen lokalt med hjälp av Microsoft SQL Server Management Studio eller liknande verktyg, med den angivna anslutningssträngen.
+
+4. Kör applikationen lokalt genom att starta den. Kontrollera dess funktionalitet noggrant.
 ## Hur man startar applikationen
 
 1. Klona detta projekt till din lokala maskin.
